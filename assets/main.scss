@@ -14,7 +14,10 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-background: #999 !default;
+$brand-color:      #FFEE70 !default;
+
+$link-color: darken($brand-background, 10%);
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -47,42 +50,67 @@ $on-laptop:        800px !default;
 
 @import 'assets/scss/base';
 
+html, body {
+// overflow-x: hidden;
+}
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   margin: 0;
   padding: 0;
+  color: $text-color;
 }
 
 .site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 0;
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
+  text-align: center;
+  background-color: $brand-color;
+  border-left: $spacing-unit / 2 solid $brand-background;
+  border-right: $spacing-unit / 2 solid $brand-color;
 
   nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 5px;
+    padding: 5px;
+    align-items: baseline;
 
     a {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-end;
+      background: transparent;
+      flex: 1;
     }
 
     img {
       max-height: 100px;
-      box-shadow: rgba(0,0,0,0.2) 3px 3px 10px;
       border-radius: 3px;
+      max-width: 100px;
+      flex: 1;
     }
-  }
 
-  text-align: center;
+    @include media-query(4 * 100px) {
+      img {
+        max-width: 75px;
+        max-height: 75px;
+      }
+
+      a {
+        font-size: smaller;
+      }
+    }
+
+    a:hover {
+    }
+
+  }
 
   .site-title {
     font-family: 'Mrs Saint Delafield', cursive;
@@ -92,13 +120,14 @@ body {
     letter-spacing: normal;
     margin-bottom: -4px;
     margin-top: 4px;
+    align-self: center;
   }
 
   hr {
     position: relative;
     top: -24px;
     border: 0;
-    border-top: 1px dashed rgba(0,0,0,0.2);
+    border-top: 1px solid $brand-background;
   }
 }
 
