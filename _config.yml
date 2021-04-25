@@ -22,7 +22,7 @@ title: Elias Augustus Brough
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The war diary and ephemera of Elias Augustus Brough, Private, 6th Australian Field Ambulance
-baseurl: "/elias-brough" # the subpath of your site, e.g. /blog
+baseurl: "/elias-augustus-brough" # the subpath of your site, e.g. /blog
 url: "http://cathywise.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
