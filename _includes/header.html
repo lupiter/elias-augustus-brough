@@ -7,7 +7,7 @@
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         <a class="page-link" href="{{ my_page.url | relative_url }}">
-          {%- if my_page.image -%}<img src="{{ my_page.image | relative_url }}" class="icon" alt="" height=100 />{%- endif -%}
+          {%- if my_page.image -%}<img src="{{ my_page.image | relative_url }}" class="icon" alt="" />{%- endif -%}
           {%- if my_page.title -%}{{ my_page.title | escape }}{%- endif -%}
         </a>
       {%- endfor -%}

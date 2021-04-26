@@ -62,15 +62,15 @@ main {
  * Content width
  */
 .wrapper, header {
-  width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width: calc(#{$content-width} - (#{$spacing-unit} * 4));
 
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
 
 
-  @include media-query(calc(#{$content-width} - (#{$spacing-unit} * 2))) {
+  @include media-query(calc(#{$content-width} - (#{$spacing-unit} * 1))) {
     width: calc(100vw - (#{$spacing-unit} * 2));
-    margin: 0 $spacing-unit / 2;
+    margin: 0;
     padding: 0 $spacing-unit / 2;
 
   }
@@ -90,9 +90,7 @@ main {
   background: $background-color;
   border-left: $spacing-unit / 2 solid $brand-color;
   border-right: $spacing-unit / 2 solid $brand-background;
-
   min-height: 80vh;
-
 }
 
 
