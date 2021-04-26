@@ -3,7 +3,7 @@ layout: post
 title: Wednesday, 31/10/17
 ---
 
-## Transcription
+### Transcription
 
     Psalm 66-10.
     In God I will praise 
@@ -28,7 +28,7 @@ title: Wednesday, 31/10/17
 
 
 
-## Expanded
+### Expanded
 
 > In God I will praise his word; in God I have put my trust.
 >
