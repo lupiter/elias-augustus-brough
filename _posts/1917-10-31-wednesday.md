@@ -11,7 +11,7 @@ title: Wednesday, 31/10/17
     put my trust
     Woke 5-30pm. Had good 
     night. Not at all sick. 
-    As I surveyed scene + conflics 
+    As I surveyed scene + conflicts 
     praised Him for His good-
     ness to me.
     Several patients admitted.
@@ -36,7 +36,7 @@ title: Wednesday, 31/10/17
 
 Woke 5:30pm. Had good night, not at all sick. 
 
-As I surveyed scene & conflics, praised Him for His goodness to me.
+As I surveyed scene & conflicts, praised Him for His goodness to me.
 
 Several patients admitted. Reproved orderlies for Bad Language: said I would not have it: this pleased two other orderlies.
 
