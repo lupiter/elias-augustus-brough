@@ -1,8 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
-
-// @import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
@@ -110,7 +108,8 @@ body {
   }
 
   .site-title {
-    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: Engagement, cursive;
+    color: $text-color;
     font-size: 42px;
     font-weight: 400;
     line-height: 70px;
@@ -118,13 +117,8 @@ body {
     margin-bottom: -4px;
     margin-top: 4px;
     align-self: center;
-  }
-
-  hr {
-    position: relative;
-    top: -24px;
-    border: 0;
-    border-top: 1px solid $brand-background;
+    background: white;
+    width: 100vw;
   }
 }
 
