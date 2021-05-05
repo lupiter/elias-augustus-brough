@@ -43,7 +43,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * `main` element
  */
@@ -143,6 +142,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h4, h5, h6 {
+  font-weight: bolder;
+}
+
 
 
 /**
@@ -195,8 +198,8 @@ blockquote {
  */
 pre,
 code {
-  font-family: Engagement, cursive;
-  font-size: 16pt;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
 }
 
 code {
@@ -209,7 +212,7 @@ pre {
   padding: 8px 12px;
   overflow-x: auto;
   background-image: linear-gradient(0deg, #ffffff 48.78%, $line-colour 48.78%, $line-colour 50%, #ffffff 50%, #ffffff 98.78%, $line-colour 98.78%, $line-colour 100%);
-  background-size: 64.00px 64.00px;
+  background-size: 32.00px 48.00px;
 
   > code {
     border: 0;
