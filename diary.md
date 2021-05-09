@@ -11,6 +11,6 @@ image: images/icons/diary.jpeg
                                                                 26/11/18
                                                                 It is well
 
-![cropped scan of handwriting, transcribed above]({{ site.baseurl }}/images/icons/diary.jpeg)
+{% cloudinary_upload /images/icons/diary.jpeg alt="cropped scan of handwriting, transcribed above" %}
 
 A ruled pocket account-book with a navy blue cover.

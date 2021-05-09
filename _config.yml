@@ -36,6 +36,9 @@ header_pages:
   - paybook.md
   - documents.md
 
+cloudinary_uploads:
+  cloud_name: cathywise
+
 minima:
   date_format: "%A %e/%-m/%y"
 

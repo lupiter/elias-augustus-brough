@@ -48,4 +48,4 @@ Strenuous day.
 
 Wrote a latter to my little girlie. Last night of land this am.
 
-![photo of page 2, transcribed above]({{ site.baseurl }}/images/diary/photos/2.jpeg)
+{% cloudinary_upload /images/diary/photos/2.jpeg alt="photo of page 2, transcribed above" %}

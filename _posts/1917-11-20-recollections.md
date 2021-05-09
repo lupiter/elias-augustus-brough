@@ -273,24 +273,24 @@ Over the dark sea
 
 Praying for me.
 
-![photo of page 9, transcribed above]({{ site.baseurl }}/images/diary/photos/9.jpeg)
+{% cloudinary_upload /images/diary/photos/9.jpeg alt="photo of page 9, transcribed above" %}
 
-![photo of page 10, transcribed above]({{ site.baseurl }}/images/diary/photos/10.jpeg)
+{% cloudinary_upload /images/diary/photos/10.jpeg alt="photo of page 10, transcribed above" %}
 
-![photo of page 11, transcribed above]({{ site.baseurl }}/images/diary/photos/11.jpeg)
+{% cloudinary_upload /images/diary/photos/11.jpeg alt="photo of page 11, transcribed above" %}
 
-![photo of page 12, transcribed above]({{ site.baseurl }}/images/diary/photos/12.jpeg)
+{% cloudinary_upload /images/diary/photos/12.jpeg alt="photo of page 12, transcribed above" %}
 
-![photo of page 13, transcribed above]({{ site.baseurl }}/images/diary/photos/13.jpeg)
+{% cloudinary_upload /images/diary/photos/13.jpeg alt="photo of page 13, transcribed above" %}
 
-![photo of page 14, transcribed above]({{ site.baseurl }}/images/diary/photos/14.jpeg)
+{% cloudinary_upload /images/diary/photos/14.jpeg alt="photo of page 14, transcribed above" %}
 
-![photo of page 15, transcribed above]({{ site.baseurl }}/images/diary/photos/15.jpeg)
+{% cloudinary_upload /images/diary/photos/15.jpeg alt="photo of page 15, transcribed above" %}
 
-![photo of page 16, transcribed above]({{ site.baseurl }}/images/diary/photos/16.jpeg)
+{% cloudinary_upload /images/diary/photos/16.jpeg alt="photo of page 16, transcribed above" %}
 
-![photo of page 17, transcribed above]({{ site.baseurl }}/images/diary/photos/17.jpeg)
+{% cloudinary_upload /images/diary/photos/17.jpeg alt="photo of page 17, transcribed above" %}
 
-![photo of page 18, transcribed above]({{ site.baseurl }}/images/diary/photos/18.jpeg)
+{% cloudinary_upload /images/diary/photos/18.jpeg alt="photo of page 18, transcribed above" %}
 
-![photo of page 19, transcribed above. Includes a small black and white photo of shafts of light through scattered clouds, over a calm sea]({{ site.baseurl }}/images/diary/photos/19.jpeg)
+{% cloudinary_upload /images/diary/photos/19.jpeg alt="photo of page 19, transcribed above. Includes a small black and white photo of shafts of light through scattered clouds, over a calm sea" %}

@@ -30,4 +30,4 @@ Fatigue.
 
 Have had 2 hours off in the pm. I enjoyed sun. It was the first time off since aboard.
 
-![photo of page 8, transcribed above]({{ site.baseurl }}/images/diary/photos/8.jpeg)
+{% cloudinary_upload /images/diary/photos/8.jpeg alt="photo of page 8, transcribed above" %}

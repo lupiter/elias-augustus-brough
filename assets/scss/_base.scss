@@ -102,6 +102,7 @@ img {
   max-height: 100vh;
   flex: 1;
   align-self: center;
+  object-fit: contain;
 }
 
 
@@ -206,13 +207,26 @@ code {
   padding: 1px 5px;
 }
 
-$line-colour: $brand-color;
+$line-colour: $grey-color-light;
+$line-colour-v: $brand-color;
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
-  background-image: linear-gradient(0deg, #ffffff 48.78%, $line-colour 48.78%, $line-colour 50%, #ffffff 50%, #ffffff 98.78%, $line-colour 98.78%, $line-colour 100%);
-  background-size: 32.00px 48.00px;
+  background-image: 
+    linear-gradient(0deg, 
+      rgba(255,255,255,0) 21px, $line-colour 21px, $line-colour 22px, rgba(255,255,255,0) 22px, 
+      rgba(255,255,255,0) 45px, $line-colour 45px, $line-colour 46px, rgba(255,255,255,0) 46px
+      ),
+    linear-gradient(90deg, 
+      rgba(255,255,255,0)  10px, $line-colour-v  10px, $line-colour-v  12px, rgba(255,255,255,0)  12px, 
+      rgba(255,255,255,0) 299px, $line-colour-v 299px, $line-colour-v 301px, rgba(255,255,255,0) 301px,
+      rgba(255,255,255,0) 309px, $line-colour-v 309px, $line-colour-v 311px, rgba(255,255,255,0) 311px,
+      rgba(255,255,255,0) 359px, $line-colour-v 359px, $line-colour-v 361px, rgba(255,255,255,0) 361px,
+      rgba(255,255,255,0) 400px
+      );
+  background-size: 400.00px 48.00px;
+  border: 1px dotted $brand-color;
 
   > code {
     border: 0;

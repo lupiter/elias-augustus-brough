@@ -8,7 +8,7 @@ image: images/icons/postcard.png
 
 Front. An embroidered panel sits within a card frame, a pink ribbon is tied in a bow around the spine of the card. The embroidery is of two sparrows on ivy with purple and white flowers and green leaves, on a white translucent ground. The words "MANY HAPPY RETURNS" are fitted between the vine trails. The white card frame is embossed with roses, other flowers, leaves, and ribbons. 
 
-![photo of card front described above]({{ site.baseurl }}/images/postcards/birthday-front.jpeg)
+{% cloudinary_upload /images/postcards/birthday-front.jpeg alt="photo of card front described above" %}
 
 Inside. There is a border of carnations in the left top corner, with the words "Far from you, But thinking of you" printed.
 
@@ -28,13 +28,13 @@ On the right side there is a printed message between two floral swags. It reads:
 >
 > God grant I may wish you for many a Year
 
-![photo of card interior described above]({{ site.baseurl }}/images/postcards/birthday-inside.jpeg)
+{% cloudinary_upload /images/postcards/birthday-inside.jpeg alt="photo of card interior described above" %}
 
 ## Postcard, 21/3/18
 
 Front. An embroidered panel sits within a card frame. The embroidery is of forget-me-nots and pansies, and includes the words "KEEP ME IN YOUR HEART".
 
-![photo of postcard front described above]({{ site.baseurl }}/images/postcards/france-front.jpeg)
+{% cloudinary_upload /images/postcards/france-front.jpeg alt="photo of postcard front described above" %}
 
 Back. "Carte Postale"
 
@@ -73,7 +73,7 @@ Gus
 
 24/3/18
 
-![photo of postcard back described above]({{ site.baseurl }}/images/postcards/france-back.jpeg)
+{% cloudinary_upload /images/postcards/france-back.jpeg alt="photo of postcard back described above" %}
 
 ## Postcard, Undated
 
@@ -97,7 +97,7 @@ Front. A coloured print of flowers surrounds a poem. At the top of the card is a
 >
 > Only you and I always
 
-![photo of postcard front described above]({{ site.baseurl }}/images/postcards/london-front.jpeg)
+{% cloudinary_upload /images/postcards/london-front.jpeg alt="photo of postcard front described above" %}
 
 
 Back. "Post Card, C.P.C. London"
@@ -160,5 +160,5 @@ Only for you & I always.
 As ever Gus
 
 
-![photo of postcard back described above]({{ site.baseurl }}/images/postcards/london-back.jpeg)
+{% cloudinary_upload /images/postcards/london-back.jpeg alt="photo of postcard back described above" %}
 
